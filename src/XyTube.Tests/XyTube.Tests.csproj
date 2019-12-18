@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\XyTube.Core\XyTube.Core.csproj" />
+    <ProjectReference Include="..\XyTube.Explode\XyTube.Explode.csproj" />
   </ItemGroup>
 
 </Project>

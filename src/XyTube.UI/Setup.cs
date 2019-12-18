@@ -1,8 +1,7 @@
 ﻿using Ninject;
 using Ninject.Modules;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using XyTube.Core.Services;
+using XyTube.UI.UiServices;
 
 namespace XyTube.UI
 {
@@ -20,7 +19,7 @@ namespace XyTube.UI
     {
         public override void Load()
         {
-            throw new NotImplementedException();
+            Bind<ILogger>().To<Logger>().InSingletonScope();
         }
     }
 }
